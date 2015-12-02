@@ -67,7 +67,7 @@ This is a prototype for the Fall 2015 INTEX exercise.
         "Name": "Lead",
         "Cost": 1.00,
         "Quantity": 1.65
-      }]
+      }],
       "LiteratureReferences": [{
         "LiteratureReferenceID": 9372,
         "Name": "Journal of Science",
@@ -77,7 +77,7 @@ This is a prototype for the Fall 2015 INTEX exercise.
         "Name": "Journal of Medical Science",
         "Notes": "Pages 32-67"
       }]
-    }]
+    }],
     "Data Report": "https://s3-us-west-2.amazonaws.com/northwestlabs/reports/data/104729.html",
     "Summary Report": "https://s3-us-west-2.amazonaws.com/northwestlabs/reports/summary/104729.html"
   }]
