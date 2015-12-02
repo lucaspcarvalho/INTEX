@@ -238,10 +238,11 @@
     <Content Include="Views\Customer\SummaryReport.cshtml" />
     <Content Include="Views\Customer\RawData.cshtml" />
     <Content Include="Views\Customer\CompoundDetail.cshtml" />
+    <Content Include="Views\Employee\Index.cshtml" />
+    <Content Include="Views\Employee\AddCustomer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Employee\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

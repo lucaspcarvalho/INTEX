@@ -13,5 +13,11 @@ namespace INTEXApp.Controllers
         {
             return View();
         }
+
+        // GET: Employee/AddCustomer
+        public ActionResult AddCustomer()
+        {
+            return View();
+        }
     }
 }
