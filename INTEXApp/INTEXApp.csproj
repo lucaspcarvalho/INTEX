@@ -240,6 +240,8 @@
     <Content Include="Views\Customer\CompoundDetail.cshtml" />
     <Content Include="Views\Employee\Index.cshtml" />
     <Content Include="Views\Employee\AddCustomer.cshtml" />
+    <Content Include="Views\Employee\ReviewQuotes.cshtml" />
+    <Content Include="Views\Employee\QuoteDetail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

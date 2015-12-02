@@ -19,5 +19,17 @@ namespace INTEXApp.Controllers
         {
             return View();
         }
+
+        // GET: Employee/ReviewQuote
+        public ActionResult ReviewQuotes()
+        {
+            return View();
+        }
+
+        // GET: Employee/ReviewQuote/id
+        public ActionResult QuoteDetail()
+        {
+            return View();
+        }
     }
 }
