@@ -56,5 +56,15 @@ namespace INTEXApp.Controllers
         {
             return View();
         }
+
+        public ActionResult ScheduleAssay()
+        {
+            return View();
+        }
+
+        public ActionResult ScheduledAssays()
+        {
+            return View();
+        }
     }
 }
