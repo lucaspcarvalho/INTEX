@@ -24,5 +24,37 @@ namespace INTEXApp.Controllers
         {
             return View();
         }
+        public ActionResult ProcessBilling()
+        {
+            return View();
+        }
+        public ActionResult CustomerInfo()
+        {
+            return View();
+        }
+        public ActionResult Discount()
+        {
+            return View();
+        }
+        public ActionResult UpdatedCustomerInfo()
+        {
+            return View();
+        }
+        public ActionResult Invoice()
+        {
+            return View();
+        }
+        public ActionResult UpdateAssayCatalog()
+        {
+            return View();
+        }
+        public ActionResult QueryAssayCatalog()
+        {
+            return View();
+        }
+        public ActionResult EditAssay()
+        {
+            return View();
+        }
     }
 }

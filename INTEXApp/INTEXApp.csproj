@@ -241,6 +241,14 @@
     <Content Include="Views\Employee\Index.cshtml" />
     <Content Include="Views\Employee\AddCustomer.cshtml" />
     <Content Include="Views\Employee\AddQuote.cshtml" />
+    <Content Include="Views\Employee\ProcessBilling.cshtml" />
+    <Content Include="Views\Employee\CustomerInfo.cshtml" />
+    <Content Include="Views\Employee\Discount.cshtml" />
+    <Content Include="Views\Employee\UpdatedCustomerInfo.cshtml" />
+    <Content Include="Views\Employee\Invoice.cshtml" />
+    <Content Include="Views\Employee\UpdateAssayCatalog.cshtml" />
+    <Content Include="Views\Employee\QueryAssayCatalog.cshtml" />
+    <Content Include="Views\Employee\EditAssay.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
