@@ -8,7 +8,7 @@ This is a prototype for the Fall 2015 INTEX exercise.
 ```json
 {
   "WorkOrderID": 104729,
-  "Comments": "",
+  "Comments": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim",
   "DiscountPercent": 15,
   "TotalCharges": 1750.43,
   "CompoundName": "Phencyclidine",
