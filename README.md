@@ -7,12 +7,12 @@ This is a prototype for the Fall 2015 INTEX exercise.
 **Work Order 1**
 ```json
 {
-  WorkOrderID: 104729
-  Comments: ""
-  DiscountPercent: 15
-  TotalCharges: 1750.43
-  CompoundName: Phencyclidine
-  MolecularMass: 243.387
+  WorkOrderID: 104729,
+  Comments: "",
+  DiscountPercent: 15,
+  TotalCharges: 1750.43,
+  CompoundName: Phencyclidine,
+  MolecularMass: 243.387,
   CompoundSamples: [{
     CompoundSequenceCode: 1,
     QtyInMilligrams: 50,
