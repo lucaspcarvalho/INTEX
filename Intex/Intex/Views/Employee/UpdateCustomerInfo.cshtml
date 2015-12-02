@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "UpdatedCustomerInfo";
+}
+
+<h2>Updated Customer Info</h2>
+
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>CustomerID</th>
+                <th>Contact Name</th>
+                <th>Contact Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>102314</td>
+                <td>John Doe</td>
+                <td>385-239-4232</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+<h2>Customer Work Orders</h2>
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Work Order ID</th>
+                <th>Comments</th>
+                <th>Discount Percent</th>
+                <th>Total Charges</th>
+                <th>Compound Name</th>
+                <th>Molecular Mass</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>104729</td>
+                <td>""</td>
+                <td>15</td>
+                <td>1750.43</td>
+                <td>Phencyclidine</td>
+                <td>243.387</td>
+                <td><a href="/Employee/Invoice"><button type="button" class="btn btn-primary">Generate an Invoice</button></a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<a href="/Customer"><button type="button" class="btn btn-default">Go Back</button></a>
