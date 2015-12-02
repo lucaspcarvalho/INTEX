@@ -251,6 +251,9 @@
     <Content Include="Views\Employee\UpdatedCustomerInfo.cshtml" />
     <Content Include="Views\Employee\ScheduleAssay.cshtml" />
     <Content Include="Views\Employee\ScheduledAssays.cshtml" />
+    <Content Include="Views\Employee\CreateCustomReport.cshtml" />
+    <Content Include="Views\Employee\CustomReportReview.cshtml" />
+    <Content Include="Views\Employee\CustomReport.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
