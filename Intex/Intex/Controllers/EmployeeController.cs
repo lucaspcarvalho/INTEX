@@ -56,5 +56,17 @@ namespace INTEXApp.Controllers
         {
             return View();
         }
+        public ActionResult CreateCustomReport()
+        {
+            return View();
+        }
+        public ActionResult CustomReportReview()
+        {
+            return View();
+        }
+        public ActionResult CustomReport()
+        {
+            return View();
+        }
     }
 }
