@@ -13,5 +13,21 @@ namespace INTEXApp.Controllers
         {
             return View();
         }
+        public ActionResult WorkOrders()
+        {
+            return View();
+        }
+        public ActionResult SummaryReport()
+        {
+            return View();
+        }
+        public ActionResult RawData()
+        {
+            return View();
+        }
+        public ActionResult CompoundDetail()
+        {
+            return View();
+        }
     }
 }
