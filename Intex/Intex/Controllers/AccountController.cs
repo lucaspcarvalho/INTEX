@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Intex.Models;
+using System.Web.Security;
 
 namespace Intex.Controllers
 {
@@ -391,7 +392,8 @@ namespace Intex.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult LogOff()
         {
-            AuthenticationManager.SignOut();
+            FormsAuthentication.SignOut();
+            //AuthenticationManager.SignOut();
             return RedirectToAction("Index", "Home");
         }
 
