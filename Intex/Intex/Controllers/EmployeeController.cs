@@ -110,5 +110,13 @@ namespace INTEXApp.Controllers
         {
             return View();
         }
+        public ActionResult Solubilize()
+        {
+            return View();
+        }
+        public ActionResult CompoundSample()
+        {
+            return View();
+        }
     }
 }

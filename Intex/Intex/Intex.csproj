@@ -259,6 +259,8 @@
     <Content Include="Views\Employee\RunAssay.cshtml" />
     <Content Include="Views\Employee\AssayDetails.cshtml" />
     <Content Include="Views\Employee\ReviewQuotes.cshtml" />
+    <Content Include="Views\Employee\Solubilize.cshtml" />
+    <Content Include="Views\Employee\CompoundSample.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
