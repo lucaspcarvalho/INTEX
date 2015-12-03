@@ -124,5 +124,9 @@ namespace INTEXApp.Controllers
         {
             return View();
         }
+        public ActionResult AssayDetails()
+        {
+            return View();
+        }
     }
 }
