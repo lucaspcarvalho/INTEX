@@ -2,16 +2,15 @@
     ViewBag.Title = "Discount";
 }
 
-<h2>Enter Discounts</h2>
-<p class="lead">Total Charges</p>
-<p>2059.33</p>
-<br /><br />
-<form class="form-horizontal">
-    <div class="form-group">
-        <label for="discount" class="col-sm-2 control-label">Discount</label>
-        <div class="col-sm-10">
-            <input type="discount" class="form-control" id="discount" placeholder="Enter Discount">
-        </div>
+<h1>Enter Discounts</h1>
+<h2>Total Charges: <span class="text-success">$2,059.33</span></h2>
+<br />
+
+<div class="row">
+    <div class="col-xs-12 form-group">
+        <label class="control-label">Discount</label>
+        <input type="text" value="" class="form-control" />
     </div>
-</form>
+</div>
+
 <a href="/Employee/UpdatedCustomerInfo"><button type="button" class="btn btn-default">Update Balance</button></a>
