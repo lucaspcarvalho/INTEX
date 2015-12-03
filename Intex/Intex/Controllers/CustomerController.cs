@@ -8,6 +8,7 @@ namespace Intex.Controllers
 {
     public class CustomerController : Controller
     {
+        [Authorize]
         // GET: Customer
         public ActionResult Index()
         {
