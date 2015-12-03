@@ -8,6 +8,7 @@ namespace INTEXApp.Controllers
 {
     public class EmployeeController : Controller
     {
+        [Authorize]
         // GET: Employee
         public ActionResult Index()
         {
