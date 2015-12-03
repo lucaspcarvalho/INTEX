@@ -24,6 +24,12 @@ namespace INTEXApp.Controllers
         {
             return View();
         }
+
+        public ActionResult ReceiveCompound()
+        {
+            return View();
+        }
+
         public ActionResult ProcessBilling()
         {
             return View();

@@ -254,6 +254,7 @@
     <Content Include="Views\Employee\CreateCustomReport.cshtml" />
     <Content Include="Views\Employee\CustomReportReview.cshtml" />
     <Content Include="Views\Employee\CustomReport.cshtml" />
+    <Content Include="Views\Employee\ReceiveCompound.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
