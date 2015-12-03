@@ -59,6 +59,13 @@
   background-size: cover;
   margin: auto;
 }
+.my-image9 {
+  width: 200px;
+  height: 200px;
+  background: url("http://www.chemistryland.com/CHM130FieldLab/Lab9/FilterCopperCarbonate.jpg");
+  background-size: cover;
+  margin: auto;
+}
 .sample {
   border-bottom: 1px solid #ddd;
   padding-top: 20px;
