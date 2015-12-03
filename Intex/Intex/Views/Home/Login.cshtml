@@ -2,13 +2,24 @@
     ViewBag.Title = "Login";
 }
 
-<h2>Login</h2>
+<div class="container">
+    <h2>Login</h2>
 
-@using (Html.BeginForm("Login", "Home", FormMethod.Post))
-{
-    <label for="inputUsername">Username</label>
-    @Html.TextBox("Username")
-    <label for="inputPassword">Password</label>
-    @Html.Password("Password")
-    <button type="submit">Login</button>
-}
+    @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+    {
+        <div class="row">
+            <div class="form-group col-md-4">
+                <label for="inputUsername" class="control-label">Username</label>
+                @Html.TextBox("Username", null, new { @class="form-control" })
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-4">
+                <label for="inputPassword" class="control-label">Password</label>
+                @Html.Password("Password", null, new { @class="form-control" })
+            </div>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Login</button>
+    }
+</div>
