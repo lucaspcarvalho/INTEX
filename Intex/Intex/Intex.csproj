@@ -258,6 +258,7 @@
     <Content Include="Views\Employee\ReceiveCompound.cshtml" />
     <Content Include="Views\Employee\RunAssay.cshtml" />
     <Content Include="Views\Employee\AssayDetails.cshtml" />
+    <Content Include="Views\Employee\ReviewQuotes.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

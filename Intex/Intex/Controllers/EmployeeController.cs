@@ -25,6 +25,11 @@ namespace INTEXApp.Controllers
             return View();
         }
 
+        public ActionResult ReviewQuotes()
+        {
+            return View();
+        }
+
         public ActionResult ReceiveCompound()
         {
             return View();
