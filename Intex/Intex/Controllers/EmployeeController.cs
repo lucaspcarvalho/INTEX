@@ -79,5 +79,21 @@ namespace INTEXApp.Controllers
         {
             return View();
         }
+        public ActionResult ProcessSummaryReport()
+        {
+            return View();
+        }
+        public ActionResult ProcessDataReport()
+        {
+            return View();
+        }
+        public ActionResult DataReport()
+        {
+            return View();
+        }
+        public ActionResult DisplayDataReport()
+        {
+            return View();
+        }
     }
 }

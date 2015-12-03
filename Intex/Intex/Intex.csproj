@@ -254,6 +254,10 @@
     <Content Include="Views\Employee\CreateCustomReport.cshtml" />
     <Content Include="Views\Employee\CustomReportReview.cshtml" />
     <Content Include="Views\Employee\CustomReport.cshtml" />
+    <Content Include="Views\Employee\ProcessSummaryReport.cshtml" />
+    <Content Include="Views\Employee\ProcessDataReport.cshtml" />
+    <Content Include="Views\Employee\DataReport.cshtml" />
+    <Content Include="Views\Employee\DisplayDataReport.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
