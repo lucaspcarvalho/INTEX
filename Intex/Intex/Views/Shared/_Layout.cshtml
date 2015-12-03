@@ -31,11 +31,23 @@
             </div>
         </div>
     </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
 
-    </div>
+    @{ if (this.ViewContext.RouteData.Values["controller"].ToString() == "Home")
+     {
+        <div>
+            @RenderBody()
+            <div class="container">
+                <hr />
+            </div>
+        </div>
+     }
+     else
+     {
+        <div class="container">
+            @RenderBody()
+            <hr />
+        </div>
+     } }
 
     @Scripts.Render("~/bundles/jquery")
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
