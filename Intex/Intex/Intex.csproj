@@ -256,6 +256,8 @@
     <Content Include="Views\Employee\CustomReportReview.cshtml" />
     <Content Include="Views\Employee\CustomReport.cshtml" />
     <Content Include="Views\Employee\ReceiveCompound.cshtml" />
+    <Content Include="Views\Employee\RunAssay.cshtml" />
+    <Content Include="Views\Employee\AssayDetails.cshtml" />
     <Content Include="Views\Employee\ReviewQuotes.cshtml" />
     <Content Include="Views\Shared\_WorkOrdersTable.cshtml" />
     <Content Include="Views\Employee\ViewWorkOrder.cshtml" />

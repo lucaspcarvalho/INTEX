@@ -111,5 +111,9 @@ namespace INTEXApp.Controllers
         {
             return View();
         }
+        public ActionResult RunAssay()
+        {
+            return View();
+        }
     }
 }
