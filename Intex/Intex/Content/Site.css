@@ -1,6 +1,7 @@
 ﻿body {
   font-family: 'Open Sans', Arial;
   padding-top: 50px;
+  background: #FAFAFA;
 }
 .my-image {
   width: 200px;
@@ -99,5 +100,21 @@
   height: 100%;
   background: #111b2d;
   opacity: 0.8;
+}
+.Home-Index .jumbotron {
+  padding: 50px;
+}
+.Home-Index .jumbotron p {
+  max-width: 1000px;
+  margin: auto;
+}
+.Home-Index .image {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  background: url('http://bertfish.com/images/lab.jpg') center center no-repeat;
+  background-size: cover;
+  border-radius: 100%;
 }
 /*# sourceMappingURL=Site.css.map */
