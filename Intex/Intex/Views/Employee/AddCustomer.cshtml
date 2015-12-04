@@ -3,8 +3,8 @@
     ViewBag.Title = "AddCustomer";
 }
 
-<h2>Add a Customer</h2>
 <form>
+    <h2>Add a Customer</h2>
     <div class="row">
         <div class="form-group col-sm-6">
             <label class="control-label">Company Name</label>
@@ -56,7 +56,14 @@
     <div class="row">
         <div class="form-group col-xs-12">
             <a href="/Employee" class="btn btn-default">Cancel</a>
-            <input type="submit" value="Add Customer" class="btn btn-success" />
+            <input type="submit" value="Add Customer" id="add-customer" class="btn btn-success" />
         </div>
     </div>
 </form>
+
+<div class="confirmation text-center" style="display:none">
+    <h1>Customer Saved!</h1>
+    <p class="lead">The customer has been saved in the database.</p>
+    <a href="/Employee" class="btn btn-default">Return to Dashboard</a>
+    <a href="/Employee/AddCustomer" class="btn btn-primary">Add Another Customer</a>
+</div>

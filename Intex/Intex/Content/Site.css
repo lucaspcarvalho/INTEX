@@ -3,6 +3,43 @@
   padding-top: 50px;
   background: #FAFAFA;
 }
+.navbar-inverse {
+  background-color: #345489;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+}
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+.about-header {
+  background: url('https://images.unsplash.com/photo-1437809781432-a957377661ee?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=256af5362ccc112f07c74057fa89c664') center center no-repeat fixed;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+.about-header:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #111b2d;
+  opacity: 0.75;
+}
+.about-header .content {
+  position: relative;
+  z-index: 10;
+  color: white;
+  padding: 100px 50px 0;
+}
+.about-header .content h1 {
+  font-weight: 300;
+  font-size: 80px;
+}
 .my-image {
   width: 200px;
   height: 200px;
@@ -74,8 +111,28 @@
 .sample:last-of-type {
   border-bottom: none;
 }
+.employee-index-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0)), color-stop(55%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5)));
+}
+.index-bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0)), color-stop(55%, rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.85)));
+}
 .Home-Index header {
-  background: url('http://www.sigmarecruitment.co.uk/media/Lab-Tech1.jpg') center center no-repeat;
+  background: url('http://www.sigmarecruitment.co.uk/media/Lab-Tech1.jpg') center center no-repeat fixed;
   background-size: cover;
   width: 100%;
   height: 600px;
@@ -83,7 +140,7 @@
 }
 .Home-Index header .content {
   position: relative;
-  padding: 150px 50px 0;
+  padding: 120px 50px 0;
   max-width: 1000px;
   margin: auto;
   z-index: 10;

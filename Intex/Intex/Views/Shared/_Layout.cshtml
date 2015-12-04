@@ -50,11 +50,13 @@
 
     <footer class="container">
         <p>&copy; @DateTime.Now.Year, Northwest Laboratory Pharmaceuticals</p>
+        <p><img src="http://icons.iconarchive.com/icons/custom-icon-design/flag/16/Singapore-Flag-icon.png" alt="Singapore Time" /> Singapore: @DateTimeOffset.Now.AddHours(15).DateTime</p>
+        <p><img src="http://findicons.com/files/icons/282/flags/16/united_states_of_america.png" alt="USA Time" /> Seattle: @DateTimeOffset.Now.AddHours(-1).DateTime</p>
     </footer>
 
     @Scripts.Render("~/bundles/jquery")
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     @RenderSection("scripts", required: false)
-    <script src="~/Scripts/ReceiveCompound.js"></script>
+    <script src="~/Scripts/Script.js"></script>
 </body>
 </html>

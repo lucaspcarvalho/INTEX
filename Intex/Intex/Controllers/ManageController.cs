@@ -7,6 +7,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Intex.Models;
+using System.Web.Security;
 
 namespace Intex.Controllers
 {
@@ -54,6 +55,15 @@ namespace Intex.Controllers
         // GET: /Manage/Index
         public async Task<ActionResult> Index(ManageMessageId? message)
         {
+            if (User.Identity.GetUserName() == "employee")
+            {
+                RedirectToAction("Index", "Employee");
+            }
+            else if (User.Identity.GetUserName() == "customer")
+            {
+                RedirectToAction("Index", "Customer");
+            }
+            RedirectToAction("Index", "Employee");
             ViewBag.StatusMessage =
                 message == ManageMessageId.ChangePasswordSuccess ? "Your password has been changed."
                 : message == ManageMessageId.SetPasswordSuccess ? "Your password has been set."

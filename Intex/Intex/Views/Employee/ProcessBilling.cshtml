@@ -4,25 +4,20 @@
 
 <h2>Process Billing</h2>
 <div class="container">
-    <form class="form-horizontal">
-        <div class="form-group">
-            <label for="inputEmail3" class="col-sm-2 control-label">CustomerID</label>
-            <div class="col-sm-10">
-                <input type="CustomerID" class="form-control" value="102314" id="CustomerID" placeholder="CustomerID">
-            </div>
-        </div>
-        <div class="form-group">
-            <label for="inputPassword3" class="col-sm-2 control-label">Contact Name</label>
-            <div class="col-sm-10">
-                <input type="contactname" class="form-control" value="John Doe" id="contactname" placeholder="ContactName">
-            </div>
-        </div>
 
-
-        <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-                <a href="/Employee/CustomerInfo"><button type="button" class="btn btn-default">Search For Customer</button></a>
-            </div>
+    <div class="row">
+        <div class="form-group col-sm-3">
+            <label class="control-label">CustomerID</label>
+            <input type="text" value="" class="form-control" />
         </div>
-    </form>
+        <div class="form-group col-sm-9">
+            <label class="control-label">Contact Name</label>
+            <input type="text" value="" class="form-control" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-xs-12">
+            <a href="/Employee/CustomerInfo" class="btn btn-primary">Search Customer</a>
+        </div>
+    </div>
 </div>
